@@ -108,7 +108,7 @@ def dashboard():
 def load_user(user_id):
     return User.query.get(int(user_id))
 
-  #layout
+  #
 
   <!-- base.html -->
 <!DOCTYPE html>
